@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f46c33d4-8d30-499e-a15f-7789ba5d1686" name="Changes" comment="" />
+    <list default="true" id="f46c33d4-8d30-499e-a15f-7789ba5d1686" name="Changes" comment="configServer implementado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalogo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Catalogo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalogo/src/main/java/com/hamon/catalogo/resource/ProdutoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Catalogo/src/main/java/com/hamon/catalogo/resource/ProdutoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loja/src/main/java/com/hamon/loja/resources/pedidoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loja/src/main/java/com/hamon/loja/resources/PedidoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-MS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-MS/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +36,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -51,17 +59,15 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/Hamonic/Desktop/microservices/ConfigServer",
+    "last_opened_file_path": "C:/Users/Hamonic/Desktop/microservices/Loja",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "service.view.auto.scroll.to.source": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "02c8870fedd618b5de964943a2fe311a"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f7a472e48ec6b5fccc2460dd25402b7f"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,6 +84,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserMsApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="microservices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="microservices" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="catalogo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hamon.catalogo.CatalogoApplication" />
@@ -127,7 +146,11 @@
       <updated>1671493267195</updated>
       <workItem from="1671493268918" duration="5903000" />
       <workItem from="1671499776976" duration="4067000" />
-      <workItem from="1671504119329" duration="872000" />
+      <workItem from="1671504119329" duration="1009000" />
+      <workItem from="1671567953155" duration="97000" />
+      <workItem from="1671568068915" duration="103000" />
+      <workItem from="1671568187095" duration="1663000" />
+      <workItem from="1671570001371" duration="6314000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671498015242</created>
