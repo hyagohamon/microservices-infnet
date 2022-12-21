@@ -11,12 +11,14 @@
         <module name="catalogo" />
         <module name="User-MS" />
         <module name="ConfigServer" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="catalogo" target="17" />
       <module name="ConfigServer" target="17" />
       <module name="Discovery-MS" target="17" />
+      <module name="Gateway" target="17" />
       <module name="loja" target="17" />
       <module name="User-MS" target="17" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ConfigServer" options="-parameters" />
       <module name="Discovery-MS" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
       <module name="User-MS" options="-parameters" />
       <module name="catalogo" options="-parameters" />
       <module name="loja" options="-parameters" />

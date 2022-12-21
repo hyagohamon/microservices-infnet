@@ -1,4 +1,4 @@
-package com.hamon.userms.controllers;
+package com.hamon.userms.resources;
 
 import com.hamon.userms.models.dto.UserDto;
 import com.hamon.userms.models.entities.User;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/users")
-public class UserController {
+public class UserResource {
 
     @Autowired
     private UserService userService;
@@ -17,11 +17,6 @@ public class UserController {
     @Autowired
     private ModelMapper modelMapper;
 
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "Olá usuário, seja bem-vindo";
-    }
 
     @PostMapping
     public void cadastrar(@RequestBody UserDto userDto) {

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Discovery-MS/Discovery-MS.iml" filepath="$PROJECT_DIR$/Discovery-MS/Discovery-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/User-MS/User-MS.iml" filepath="$PROJECT_DIR$/User-MS/User-MS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Catalogo/catalogo.iml" filepath="$PROJECT_DIR$/Catalogo/catalogo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Loja/loja.iml" filepath="$PROJECT_DIR$/Loja/loja.iml" />
