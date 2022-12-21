@@ -7,6 +7,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
+import java.util.List;
+
 @RestController
 @RequestMapping("/users")
 public class UserResource {
@@ -26,10 +29,22 @@ public class UserResource {
     }
 
     @RequestMapping("/{id}")
-    public UserDto findById(@PathVariable Long id) {
+    public UserDto buscarPorId(@PathVariable Long id) {
         User user = userService.findById(id);
         System.out.println(user);
         UserDto map = modelMapper.map(user, UserDto.class);
         return map;
     }
+
+    @DeleteMapping("/{id}")
+    public void deletar(@PathVariable Long id) {
+        userService.deletar(id);
+    }
+
+    @GetMapping()
+    public List<UserDto> listarTodos() {
+        List<User> allUsers = userService.findAll();
+        return Arrays.asList(modelMapper.map(allUsers, UserDto[].class));
+    }
+
 }

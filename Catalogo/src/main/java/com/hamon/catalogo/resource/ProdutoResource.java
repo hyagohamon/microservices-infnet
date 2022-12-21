@@ -6,9 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,7 +23,19 @@ public class ProdutoResource {
     @GetMapping
     public ResponseEntity<List<ProdutoCatalogoDTO>> findAll() {
 
-        logger.info("chamando api de listagem de  produtos");
+        logger.info("CHAMANDO LISTAGEM DE PRODUTOS");
         return ResponseEntity.ok(produtoService.findAll());
+    }
+
+    @GetMapping("/{id}")
+    public ProdutoCatalogoDTO findById(@PathVariable Long id) {
+
+        logger.info("CHAMANDO LISTAGEM DE PRODUTOS");
+        return produtoService.findById(id);
+    }
+
+    @DeleteMapping("/{id}")
+    public void deletar(@PathVariable Long id) {
+        produtoService.delete(id);
     }
 }
